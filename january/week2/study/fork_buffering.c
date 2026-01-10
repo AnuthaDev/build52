@@ -16,3 +16,12 @@ int main()
 
     printf("hulu\n");
 }
+
+// Running the binary vs redirecting its output to a file give
+// different results
+//
+// ./fork_buffering
+// ./fork_buffering > data.txt && cat data.txt
+//
+// This difference is due to how printf handles buffering in case
+// of stdout vs writing to a file
