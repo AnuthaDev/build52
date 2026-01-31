@@ -1,0 +1,1 @@
+CLI for issuing get and set commands to redis
